@@ -1,0 +1,12 @@
+{
+    "name": "avalz/formalin",
+    "description": "Active Record ORM implementation for PHP, based on",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andrea Valenza",
+            "email": "avalenza89@gmail.com"
+        }
+    ],
+    "require": {}
+}
