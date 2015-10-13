@@ -9,6 +9,12 @@ abstract class Record {
 	protected $id;
 	protected $children;
 
+	public function __construct(array $row) {
+		foreach ($row as $key => $value) {
+			$this->{$key} = $value;
+		}
+	}
+
 	/**
 	 * @return array<Record>
 	 */
